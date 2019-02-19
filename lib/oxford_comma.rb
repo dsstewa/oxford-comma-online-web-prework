@@ -7,7 +7,8 @@ if array.length == 2
   array.join(" and ")
   
 else
- 
+ last = array.last
+ return last
  
  
 
