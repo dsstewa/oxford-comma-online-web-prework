@@ -9,8 +9,8 @@ if array.length == 2
 else
  last = array.pop
 subarray = array
-
-return last
+values = array.join(", ")
+return values << "and #{last}"
 
  
 
