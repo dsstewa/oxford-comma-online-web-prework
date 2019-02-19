@@ -7,8 +7,13 @@ if array.length == 2
   array.join(" and ")
   
 else
- puts array.join(", ")
-  
+ subarray = array
+ subarray.pop
+ subarray = subarry.join(", ")
+ 
+ 
+ puts "#{subarray}"
+
 end
 
 end
