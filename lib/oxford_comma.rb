@@ -7,7 +7,7 @@ if array.length == 2
   array.join(" and ")
   
 else
- puts array.join(" and ")
+ puts array.join(", ")
   
 end
 
