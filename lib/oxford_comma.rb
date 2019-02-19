@@ -6,8 +6,11 @@ def oxford_comma(array)
 if array.length == 2
   array.join(" and ")
   
-else
- last = array.pop
+elsif array.length == l
+return array[0]
+
+else 
+  last = array.pop
 subarray = array
 values = array.join(", ")
 return values << ", and #{last}"
