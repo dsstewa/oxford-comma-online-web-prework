@@ -10,7 +10,7 @@ else
  last = array.last
 subarray = array
 subarray.pop
-subarry.join(", ")
+subarray.join(", ")
 return subarray
 
  
