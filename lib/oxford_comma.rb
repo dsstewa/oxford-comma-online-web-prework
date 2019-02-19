@@ -10,7 +10,7 @@ else
  subarray = array
  subarray.pop
  subarray = subarray.join(", ")
- 
+ subarray << array.last
  
  puts "#{subarray}"
 
