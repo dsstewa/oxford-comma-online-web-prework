@@ -9,8 +9,7 @@ if array.length == 2
 else
  last = array.last
 subarray = array
-subarray.pop
-subarray.join(", ")
+subarray.pop subarray.join(", ")
 return subarray
 
  
