@@ -7,8 +7,7 @@ if array.length == 2
   array.join(" and ")
   
 else
-  array.join
-  puts "#{array}"
+  array.join(" and ")
   
 end
 
