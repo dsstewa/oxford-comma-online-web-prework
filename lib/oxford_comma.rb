@@ -11,7 +11,7 @@ else
   subarray.pop
   subarray.join(", ")
   subarray << "and #{array.last}"
-
+subarray.join
 
 end
 
