@@ -10,7 +10,7 @@ else
  last = array.pop
 subarray = array
 
-return subarray
+return last
 
  
 
