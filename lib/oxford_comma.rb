@@ -8,8 +8,10 @@ if array.length == 2
   
 else
  last = array.last
- return last
- 
+subarray = array.pop
+
+return subarray
+
  
 
 end
