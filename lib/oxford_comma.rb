@@ -11,8 +11,8 @@ else
   puts "#{subarray}"
   subarray.pop
   puts "#{subarray}"
-
-
+subarray.join(", ")
+puts "#{subarray}"
 end
 
 end
