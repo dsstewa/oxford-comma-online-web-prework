@@ -7,12 +7,9 @@ if array.length == 2
   array.join(" and ")
   
 else
-  subarray = array
-  puts "#{subarray}"
-  subarray.pop
-  puts "#{subarray}"
-subarray.join
-puts "#{subarray}"
+  array.join
+  puts "#{array}"
+  
 end
 
 end
