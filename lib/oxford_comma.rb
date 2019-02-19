@@ -10,7 +10,7 @@ else
  last = array.pop
 subarray = array
 values = array.join(", ")
-return values << "and #{last}"
+return values << " and #{last}"
 
  
 
