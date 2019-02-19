@@ -10,6 +10,7 @@ else
   subarray = array
   subarray.pop
   subarray.join(", ")
+  binding.pry
   subarray << "and #{array.last}"
 subarray.join(" ")
 
