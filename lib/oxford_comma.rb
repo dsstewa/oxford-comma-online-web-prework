@@ -9,7 +9,7 @@ if array.length == 2
 else
  
  
- puts "#{subarray}"
+ 
 
 end
 
