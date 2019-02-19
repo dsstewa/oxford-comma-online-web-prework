@@ -7,10 +7,7 @@ if array.length == 2
   array.join(" and ")
   
 else
- subarray = array
- subarray.pop
- subarray = subarray.join(", ")
- subarray << array.last
+ 
  
  puts "#{subarray}"
 
