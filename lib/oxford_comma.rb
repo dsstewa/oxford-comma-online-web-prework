@@ -9,7 +9,7 @@ if array.length == 2
 else
  subarray = array
  subarray.pop
- subarray = subarry.join(", ")
+ subarray = subarray.join(", ")
  
  
  puts "#{subarray}"
