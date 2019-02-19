@@ -8,6 +8,7 @@ if array.length == 2
   
 else
   subarray = array
+  puts "#{subarray}"
   subarray.pop
   puts "#{subarray}"
 
