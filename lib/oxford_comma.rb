@@ -7,9 +7,9 @@ if array.length == 2
   array.join(" and ")
   
 else
- last = array.last
+ last = array.pop
 subarray = array
-subarray.pop subarray.join(", ")
+
 return subarray
 
  
