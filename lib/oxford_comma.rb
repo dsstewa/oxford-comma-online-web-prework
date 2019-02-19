@@ -9,9 +9,8 @@ if array.length == 2
 else
   subarray = array
   subarray.pop
-  subarray.join(", ")
-  subarray << "and #{array.last}"
-subarray.join(" ")
+  puts "#{subarray}"
+
 
 end
 
